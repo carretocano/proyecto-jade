@@ -1,0 +1,97 @@
+h1, h2, h3, h4, h5, h6, figure, ul, p {
+	margin: 0;
+}
+
+
+
+
+body {
+	background: #dedede;
+}
+
+.header {
+	width: 100%;
+
+}
+
+.header .nav{
+	background-color: #535c68;
+	padding: 10px 0;
+}
+
+.header .nav .miUl{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.nav .miUl .list{
+
+	display: inline;
+	color: white;
+	font-size: 22px;
+	padding: 12px 12px;
+}
+
+.nav .miUl .select{
+	background-color: black;
+}
+
+.miprofile {
+	background-image: url('../img/0.png');
+	background-size: cover;
+}
+
+.miprofile .figure{
+	text-align: center;
+	width: 600px;
+	margin: 0 auto ;
+	padding: 10px 0;
+}
+
+.miprofile .figure .miavatar{
+	width: 50%;
+	border-radius: 50%;
+	border: 10px solid white;
+}
+
+main{
+	width: 100%;
+	color: #dff9fb;
+}
+
+main .section {
+	width: 500px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+main .section .miHeader{
+	background-color: #535c68;
+	margin-bottom: 10px;
+
+}
+
+.section .miHeader h2 {
+	color: white;
+	padding: 10px 5px;
+}
+.section .mishabilidadesCont{
+	overflow: hidden;
+}
+
+/*.section .mishabilidadesCont .ulIz{ 
+	width: 250px;
+}
+
+.section .mishabilidadesCont .ulDe{ 
+	width: 250px;
+}*/
+
+.section .mishabilidadesCont .ulIz{
+	float: left;
+}
+
+.section .mishabilidadesCont .ulDe{
+	float: right;
+}
+
+
